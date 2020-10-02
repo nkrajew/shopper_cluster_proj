@@ -30,9 +30,7 @@ Below are the data meanings derived from the descriptions given by the uploader 
 ## Cluster Analysis
 I used K-Means coupled with the elbow-method (to determine K) for multiple combinations of features. Below are some images that highlight that analysis.
 
-*image placeholder*
-*image placeholder*
-*image placeholder*
+![alt text](https://github.com/nkrajew/shopper_cluster_proj/blob/master/images/cluster_image_resize.PNG "clustering image")
 
 ## Data Prep
 Before building models I had to prep the data in multiple ways.
@@ -52,7 +50,7 @@ I built two models for this project: Logistic Regression and Random Forest.
 ## Model Performance
 I chose to evaluate the models on their F1 score since the target was imbalanced. Additionally, it fit with my business case that I walked through at the end of my analysis. It was important to the business case to reduce False Positives and False Negatives (have high Precision and Recall). 
 
-*image of performance*
+![alt text](https://github.com/nkrajew/shopper_cluster_proj/blob/master/images/performance.PNG "Performance")
 
 ## Summarized Use Case
 **Scenario:** Our marketing team has discovered that through targeted advertising efforts they can increase consumer spend (increase revenue from e-commerce shoppers that make a purchase). They want to leverage this information to increase company profits. Executive management asked if we could build a model that could effectively target consumers so that our marketing dollars are being used efficiently. Does our random forest model satisfy this request?
@@ -75,5 +73,3 @@ If the model performed perfectly (100% True Positive Rate with 0% False Positive
 - Use LASSO, Ridge, or ElasticNet when forming a linear model.
 - Try alternative forecasting models (XGB, SVM, etc.).
 - Find more features to engineer by researching ecommerce more or talknig to a domain expert
-
-
